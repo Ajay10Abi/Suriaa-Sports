@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Suriaa Sports</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style type="text/css">
+      {
+        margin: 0;
+        padding: 0;
+        font-family: Century Gothic;
+      }
+      header{
+        background-image: url("images/racket sports/lee.jpg");
+        height: 170vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      .menu-bar{
+        background: black ;
+        text-align: center;
+      }
+      label.logo{
+        color: #f2f2f2;
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+      }
+      .menu-bar ul{
+        display: inline-flex;
+        list-style: none;
+        color: #f2f2f2;
+      }
+      .menu-bar ul li{
+        width: 120px;
+        margin: 15px;
+        padding: 15px;
+      }
+      .menu-bar ul li a{
+        text-decoration: none;
+        color: #f2f2f2;
+      }
+      .active, .menu-bar ul li:hover{
+        background: #171c24;
+        border-radius: 200px;
+      }
+      .menu-bar form{
+      display: flex;
+      height: 40px;
+      background: #le232b;
+      min-width: 18%!important;
+      border: 1px solid rgba(155,155,155,0.2);
+      margin-top: 20px;
+      margin-right:
+      }
+      .menu-bar .fa{
+        margin-right: 8px;
+      }
+      .sub-menu-1{
+        display: none;
+      }
+      .menu-bar ul li:hover .sub-menu-1{
+        display: block;
+        position: absolute;
+        background: black;
+        margin-top: 15px;
+        margin-left: -15px;
+      }
+      .menu-bar ul li:hover .sub-menu-1 ul{
+        display: block;
+        margin: 10px;
+      }
+      .menu-bar ul li:hover .sub-menu-1 ul li{
+        width: 150px;
+        padding: 10px;
+        border-bottom: 1px dotted #f2f2f2;
+        background: transparent;
+        border-radius: 0;
+        text-align: left;
+      }
+      .menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+        border-bottom: none;
+      }
+      .menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+        color: #ff3d00;
+      }
+      .fa-angle-right{
+        float: right;
+      }
+      .sub-menu-2{
+        display: none;
+      }
+      .hover-me:hover .sub-menu-2{
+        position: absolute;
+        display: block;
+        margin-top: -40px;
+        margin-left: 140px;
+        background: black;
+      }
+      .title{
+        position: absolute;
+        top:50%;
+        left:40%;
+        transform: translate(-50%,-50%);
+      }
+      .title h1{
+        color: #fff;
+        font-size: 50px;
+      }
+      .title h2{
+        color: #fff;
+        font-size: 30px;
+      }
+      .button{
+        position: absolute;
+        top:84%;
+        left:50%;
+        transform: translate(-50%,-50%);
+      }
+      .btn{
+        border: 1px solid #fff;
+        padding: 10px 30px;
+        color: #fff;
+        text-decoration: none;
+        transition: 0.9s ease;
+      }
+      .btn:hover{
+        background-color:#fff;
+        color: #000;
+        border-radius: 200px;
+      }
+      .buttom{
+        position: absolute;
+        top:89%;
+        left:50%;
+        transform: translate(-50%,-50%);
+      }
+      .buttoi{
+        position: absolute;
+        top:94%;
+        left:50%;
+        transform: translate(-50%,-50%);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="menu-bar">
+        <label class="logo">Suriaa Sports <i class="fa fa-shuttlecock"></i></label>
+        <ul>
+          <li class="active"><a href="#"><i class="fa fa-home"></i>HOME</a></li>
+          <li><a href="#"><i class="fa fa-user"></i>ABOUT US</a>  </li>
+          <li><a href="#"><i class="fa fa-sign-in"></i>LOGIN</a>
+            <div class="sub-menu-1">
+              <ul>
+                <li><a href="#">SIGN IN</a></li>
+                <li><a href="#">CREATE ACCOUNT</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="#"><i class="fa fa-bolt"></i>SPORTS ACCESSORIES</a>
+            <div class="sub-menu-1">
+              <ul>
+                <li class="hover-me"><a href="#">GEAR & ACCESSORIES</a><i class="fa fa-angle-right"></i>
+                  <div class="sub-menu-2">
+                    <ul>
+                      <li><a href="#">BAGS & BACKPACKS</a></li>
+                      <li><a href="#">CLOTHING ACCESSORIES</a></li>
+                      <li><a href="#">BOTTLES & FOOD STORAGE</a></li>
+                      <li><a href="#">HYDRATION & NUTRITION</a></li>
+                      <li><a href="#">CAMPING FURNITURE</a></li>
+                      <li><a href="#">SPORTS WATCHES & ELECTRONICS</a></li>
+                      <li><a href="#">SUPPORTS & MASSAGERS</a></li>
+                      <li><a href="#">GYM EQUIPMENTS</a></li>
+                      <li><a href="#">CLOTHING & GEAR</a></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="#"><i class="fa fa-shopping-cart" ></i>CART</a></li>
+          <li><a href="#"><i class="fa fa-phone"></i>CONTACT</a>
+            <div class="sub-menu-1">
+              <ul>
+                <li><a href="#"><i class="fa fa-envelope-o">  suriaasportstnj@gmail.com</i></a></li>
+                <li><a href="#"><i class="fa fa-facebook-official">  Suriaa Sports</i></a></li>
+                <li><a href="#"><i class="fa fa-instagram">  suriaasports</i></a></li>
+                <li><a href="#"><i class="fa fa-phone">  04362-226695</i></a></li>
+                <li><a href="#"><i class="fa fa-whatsapp">  9943957595</i></a></li>
+              </ul>
+            </div>
+          </li>
+          <form action="#">
+              <input type="search" class="search-data" placeholder="Search the product" required>
+              <button type="submit" class="fa fa-search"></button>
+          </form>
+        </ul>
+      </div>
+      <div class="title">
+        <h1>WIN THE GAME BEFORE IT'S PLAYED </h1>
+        <h2>EQUIP YOURSELF WITH TOP-NOTCH GEARS</h2>
+        <h2>Largest Sports Showroom in Tanjore</h2>
+        <h2>The goods we sell are of renowned brands such as YONEX, LI-NING, VICTOR, KAWASAKI, HEAD AND SO ON...</h2>
+        <h2>We got 100% genuine products of various sporting games</h2>
+        <h2>Select a particular field of sports you want to purchase the specific Accessories for the sports</h2>
+        <h2>By clicking the specific button down below it takes you to a catalogue of all necessary equipments you want to excel in the game</h2>
+      </div>
+      <div class="button">
+        <a href="#" class="btn">RACKET SPORTS</a>
+        <a href="#" class="btn">TARGET SPORTS</a>
+        <a href="#" class="btn">WATER SPORTS</a>
+        <a href="#" class="btn">FITNESS SPORTS</a>
+      </div>
+      <div class="buttom">
+        <a href="#" class="btn">RUNNING AND WALKING</a>
+        <a href="#" class="btn">OUTDOOR SPORTS</a>
+        <a href="#" class="btn">TEAM SPORTS</a>
+      </div>
+      <div class="buttoi">
+        <a href="#" class="btn">CYCLING AND SKATING</a>
+        <a href="#" class="btn">GYM EQUIMENTS</a>
+      </div>
+    </header>
+  </body>
+</html>
